@@ -7,7 +7,7 @@ class EmailAddressParser
   
   def parse
     emails=@parser.split (/[\s,,]/)
-    emails.delete_if(&:blank?)
+    emails.delete_if(&:empty?)
   end
   
 end
