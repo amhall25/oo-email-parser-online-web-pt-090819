@@ -9,6 +9,7 @@ class EmailAddressParser
     @parser.split (/[\s,,]/)
     
   end
+  .flatten
 end
 
 # Build a class EmailParser that accepts a string of unformatted 
